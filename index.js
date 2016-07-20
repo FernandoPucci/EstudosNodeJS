@@ -19,6 +19,7 @@ app.all('*', function(req, res, next) {
   next();
 });
 
+
 app.get('/', function(req, res){
 
 	res.send('Express funcionando corretamente.');
@@ -30,6 +31,7 @@ app.get('/meusContatos', function(req, res){
 	res.json(testeVetor);
 
 });
+
 app.listen(app.get('port'), function(){
 
 	console.log('Express foi iniciado, pressione Ctrl+C a qualquer momento para finalizá-lo. ');

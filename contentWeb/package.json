@@ -1,0 +1,24 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "webapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandoPucci/EstudosNodeJS.git"
+  },
+  "author": "Fernando Pucci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernandoPucci/EstudosNodeJS/issues"
+  },
+  "homepage": "https://github.com/FernandoPucci/EstudosNodeJS#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
+  }
+}
