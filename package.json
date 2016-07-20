@@ -1,0 +1,27 @@
+{
+  "name": "estudos_node_js",
+  "version": "1.0.0",
+  "private": true
+  "description": "Programa apenas de testes e estudos sobre NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandoPucci/EstudosNodeJS.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Estudos"
+  ],
+  "author": "FernandoPucci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernandoPucci/EstudosNodeJS/issues"
+  },
+  "homepage": "https://github.com/FernandoPucci/EstudosNodeJS#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
